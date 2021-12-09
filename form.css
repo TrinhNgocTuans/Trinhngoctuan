@@ -1,0 +1,36 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: small;
+    margin: 0;
+}
+form {
+    width: 20%;
+    height: 500px;
+    border: 1px solid rgb(201, 17, 17);
+    border-radius: 4px;
+    margin: 0 auto;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+}
+.none{
+    display: none;
+    color:red;
+}
+label{
+    display: block;
+}
+.submit{
+    margin: 20px 20px;    
+}
+.khoang{
+    padding: 5px 20px ;
+}
+.khoang input{
+    border-radius: 1px;
+    width: 60%;
+    padding: 10px 50px;
+}
